@@ -11,6 +11,8 @@ import Cart from "./pages/Cart";
 import CheckoutPage from "./pages/CheckoutPage";
 import SuccessPage from "./pages/SuccessPage";
 
+// const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+
 function App() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-[#c7d2fe] via-[#a5b4fc] to-[#818cf8] text-gray-800">
