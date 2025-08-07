@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -15,7 +15,6 @@ import SuccessPage from "./pages/SuccessPage";
 
 function App() {
   return (
-    <Router>
       <div className="flex flex-col min-h-screen bg-gradient-to-br from-[#c7d2fe] via-[#a5b4fc] to-[#818cf8] text-gray-800">
         <Header />
         <main className="flex-grow pt-16 pb-20">
@@ -33,7 +32,6 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
   );
 }
 
