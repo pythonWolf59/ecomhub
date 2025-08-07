@@ -16,7 +16,7 @@ export default function Header() {
             alt="Ecomhub Logo"
             className="h-10 w-auto"
           />
-          <span className="text-xl font-bold text-gray-800 hidden sm:block">Ecomhub</span>
+          <span className="text-xl font-bold text-gray-800 hidden sm:block">DK Digital Hub</span>
         </Link>
 
         {/* Navigation */}
