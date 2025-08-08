@@ -81,6 +81,10 @@ const CheckoutPage = () => {
               placeholder="example@gmail.com"
             />
           </div>
+          
+          <div>
+            <label className="block text-sm font-medium text-gray-700">OR</label>
+          </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700">WhatsApp Number (optional)</label>
